@@ -1,0 +1,36 @@
+body {
+    max-height: 100%;
+    max-width: 800px;
+    margin: 0 auto  ;
+    background-color: #56a0d4;
+    text-align: center;
+}
+
+header {
+ font-size: 50px;
+ padding: 20px;
+ color: white;
+ text-align: center;
+ margin: 0 auto;
+ max-width: fit-content;
+}
+
+header:hover {
+    color: black;
+}
+
+ol {
+    text-align: center;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+}
+
+p {
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 60px;
+}
