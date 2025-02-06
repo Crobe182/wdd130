@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,24 +10,37 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    font-family: "Chocolate Classical Sans",Arial, sans-serif;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color: #F59631;
     color: black;
+    font-family: "Chocolate Classical Sans",Arial, sans-serif;
 }
 
 .home-title{
     color: black;
+    font-family: Condiment,Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: black;
     text-align: center; /*fix?*/
+    font-family: "Chocolate Classical Sans",Arial, sans-serif;
+    
+}
+
+h2{
+    margin: 0;
 }
 
 #hero-msg h1, #hero-message h4{
     text-align: center;
+    
 }
 
 .button-box{
@@ -35,12 +51,19 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
 body{
     background-color: #fcfbfb;
+    font-family: "Chocolate Classical Sans",Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -51,6 +74,10 @@ header{
     background-color: #66a3f8;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -64,19 +91,44 @@ header{
 
 .msg{
     background-color: #66a3f8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: black;
+    font-family: Condiment,Arial, sans-serif;;
 }
 
 .msg p{
     color: black;
+    font-size: .8em;
+    line-height: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+.rivers-card{
+    margin: 200px 0;
+    
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 
 footer{
  background-color: #66a3f8;
  color: black;
+ padding: 25px 50px;
+ margin-top: 200px;
 }
 
 footer p{
@@ -96,10 +148,20 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .logo{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
+
 }
