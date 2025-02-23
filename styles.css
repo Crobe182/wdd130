@@ -10,6 +10,10 @@ content {
     margin: 0 auto;
 }
 
+nav{
+    display: flex;
+}
+
 nav, footer {
     background-color: beige;
     padding: 20px;
@@ -35,7 +39,16 @@ img {
     text-align: center;
     display: block;
     margin: 0 auto;
-    
+    border: 4px black;
+    border-radius: 15%;
+    box-sizing: border-box;
+    transition: 1.5s;
+    box-shadow: 5px 5px 20px black;
+}
+
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 #main-topic {
