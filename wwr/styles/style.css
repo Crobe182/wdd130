@@ -240,6 +240,10 @@ footer .social img{
 
 }
 
+.available-rivers-img{
+    width: 33%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
