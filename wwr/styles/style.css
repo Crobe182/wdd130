@@ -193,6 +193,52 @@ header{
     grid-row: 2/3;
 }
 
+/*rivers page */
+#rivers-content{
+    width: 75%; 
+    margin: 0 auto;
+    align-self: center;
+}
+.available-rivers-img{
+    width: 100%;
+}
+#available-rivers{
+    text-align: center;
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+#rivers-title{
+    grid-column: 1/6;
+}
+#salmon_river_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#gray_canyon_img{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#grand_canyon_img{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#salmon-river-description{
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
+#gray-canyon-description{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+#grand-canyon-description{
+    grid-column: 1/6;
+    grid-row: 5/6;
+}
+
+/*footer related*/
 footer{
  background-color: #66a3f8;
  color: black;
@@ -238,18 +284,6 @@ footer .social img{
     width: 80px;
     padding-top: 10px;
 
-}
-
-#rivers-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 75%; 
-    margin: 0 auto;
-    align-self: center;
-}
-
-.available-rivers-img{
-    width: 100%;
 }
 
 
