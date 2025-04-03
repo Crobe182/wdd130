@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=MedievalSharp&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 header{
+    background-color: #3A3335;
     display: grid;
     grid-template-columns: 150px auto;
     /* grid-template-rows: 120px; */
     align-items: center;
 }
 
-#content{
+.content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -15,6 +16,10 @@ header{
 p{
     font-size: larger;
     text-align: center;
+}
+/* Home Page */
+#page1content{
+    background-color: #DBDFAC;
 }
 
 .logo{
@@ -30,7 +35,7 @@ nav{
 nav a{
     width: 100%;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: "Chocolate Classical Sans",Arial, sans-serif;
     padding: 50px;
@@ -102,11 +107,69 @@ nav a:hover{
     grid-row: 4/5;
 }
 
+/* Page 2 Finding a Group */
+#page2{
+    display: grid;
+    grid-template-columns: 60px repeat(5, 1fr) 60px;
+}
 
+#page2title{
+    grid-column: 2/5;
+    text-align: center;
+}
+
+.page2img{
+   max-width: 450px;
+}
+
+#page2inpersonimg{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#page2inpersontitle{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#page2inpersontext{
+    grid-column: 2/3;
+}
+
+#page2onlineimg{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#page2onlinetitle{
+    grid-column: 4/6;
+    grid-row: 3/4;
+
+}
+
+#page2onlinetext{
+    grid-column: 4/6;
+}
+
+#page2popularimg{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+#page2populartitle{
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+#page2populartext{
+ grid-column: 3/4;
+ grid-row: 7/8;
+
+}
 /* Footer CSS */
 footer{
-    background-color: #66a3f8;
-    color: black;
+    background-color: #3A3335;
+    color: white;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -119,8 +182,8 @@ footer{
    }
    
    footer a{
-       color: black;
-       text-decoration: none;
+        color: white;
+        text-decoration: none;
    }
    
    footer a:hover{
