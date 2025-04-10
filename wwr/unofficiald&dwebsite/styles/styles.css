@@ -19,12 +19,17 @@ p{
 }
 /* Home Page */
 #page1content{
-    background-color: #DBDFAC;
+    background-color: #bdc0a0;
 }
 
 .logo{
     height: 100%;
     width: 100%;
+    
+}
+
+#logo_link{
+    align-self: stretch;
 }
 
 nav{
@@ -58,6 +63,7 @@ nav a:hover{
 }
 
 #hero-msg{
+    padding-top: 150px;
     text-align: center;
     font-size: x-large;
 }
@@ -65,10 +71,11 @@ nav a:hover{
 #home-main-grid{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   row-gap: 50px;
 }
 
 #introducingdnd{
-    grid-column: 1/7;
+    grid-column: 2/6;
     text-align: center;
 }
 
@@ -108,11 +115,15 @@ nav a:hover{
 }
 
 /* Page 2 Finding a Group */
+#page2content{
+    background-color: #bdc0a0;
+}
+
 #page2{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    row-gap: 50px;
     margin: 0  auto;
-
 }
 
 #page2 h3{
@@ -122,6 +133,7 @@ nav a:hover{
 }
 
 #page2title{
+    padding-top: 150px;
     grid-column: 2/5;
     text-align: center;
 }
@@ -225,12 +237,92 @@ nav a:hover{
     transform: rotateY(180deg);
   }
 
+  .flip-card-back p{
+    padding: 10px;
+  }
+
+/*Page 3 Resources*/
+#page3content{
+    background-color: #bdc0a0;
+}
+
+#page3-main-grid{
+    display: grid;
+    grid-template-columns: 30px repeat(7, 1fr) 30px;
+}
+
+#page3title{
+    grid-column: 3/8;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+#page3p1{
+    grid-column: 3/8;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.resourcelink{
+    color: black;
+}
+
+#page3img1{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+#page3subtitle1{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+#page3list1{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    text-align: center;
+}
+
+#page3img2{
+    grid-column: 6/9;
+    grid-row: 3/4;
+    padding-top: 25px;
+    margin: 0 auto;
+}    
+
+#page3subtitle2{
+    grid-column: 7/8;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+#page3list2{
+    grid-column: 7/8;
+    grid-row: 5/6;
+}
+
+#page3subtitle3{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    text-align: center;
+}
+
+#page3p2{
+    grid-column: 3/8;
+    grid-row: 7/8;
+    text-align: center;
+}
+
 /* Footer CSS */
 footer{
     background-color: #3A3335;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
